@@ -1,0 +1,207 @@
+.container_page {
+  width: "100%";
+  margin: "auto";
+
+  .titlePage {
+    margin-top: 168px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  /* ------ Diamond shape and carat size. ------ */
+
+  .container_diamond_recommended {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    .title_diamond_shape {
+      margin-top: 39px;
+      margin-bottom: 50px;
+      color: #000;
+      text-align: center;
+      font-family: Inter;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    .img_diamond_shape {
+      width: 152px;
+      height: 128px;
+      flex-shrink: 0;
+    }
+
+    .diamond_recommended_label {
+      margin-top: 9px;
+    }
+
+    .title_carat_size {
+      margin-top: 67px;
+      margin-bottom: 48px;
+      color: #000;
+      text-align: center;
+      font-family: Inter;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    .diamond_recommended_bar {
+      height: 14px;
+      flex-shrink: 0;
+      margin-top: 10px;
+      margin-bottom: 13px;
+      background-color: #d9d9d9;
+      display: flex;
+      justify-content: center;
+
+      .diamond_recommended_selected {
+        width: 123px;
+        height: 100%;
+        background: #91f245;
+        margin: 0 13px;
+      }
+    }
+  }
+}
+
+/* ------ Container diamond category. ------ */
+
+.container_diamond_category_description {
+  margin: 108px;
+  text-align: center;
+
+  .title_category {
+    margin-top: 53px;
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+  }
+
+  .img_diamond_shape {
+    width: 152px;
+    height: 128px;
+    flex-shrink: 0;
+  }
+
+  .diamond_selected {
+    border: 1px solid #91f245;
+  }
+
+  /* ------ Container button select. ------ */
+
+  .container_button_select {
+    margin-top: 87px;
+
+    .text_button_select {
+      color: #000;
+      text-align: center;
+      font-family: Inter;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      border-radius: 4px;
+      background-color: #d9d9d9;
+      margin-left: 19px;
+    }
+  }
+}
+
+/* ------ Container diamond detail. ------ */
+
+.container-diamond-detail {
+  width: 508px;
+  height: 601px;
+  flex-shrink: 0;
+  background-color: #d9d9d9;
+  padding-left: 24px;
+  padding-right: 27px;
+  /* display: flex;
+  justify-content: center; */
+}
+
+/* model-viewer {
+  width: 217px;
+  height: 163px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  margin-top: 93px;
+  margin-right: 171px;
+  margin-bottom: 20px;
+  margin-left: 136px;
+  border: 1px solid red;
+} */
+
+.text-model-label {
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text-description {
+  margin-bottom: 14px;
+}
+
+.text-rating-point {
+  margin-bottom: 17px;
+}
+
+.text-label-checkbox {
+  margin-top: 32;
+}
+
+.input-checkbox {
+  margin-top: 0px;
+}
+
+.diamond-detail-text-normal {
+  text-align: left;
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.diamond-detail-text-bold {
+  text-align: left;
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.add-to-card-btn {
+  width: 113px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #a77373;
+  color: #000;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

@@ -203,7 +203,64 @@ export default function Viewer3DPage(props: Viewer3DPageProps) {
             </Col>
           </Col>
 
-          <Col xs="5"></Col>
+          <Col xs="5">
+            {/* {diamond1 && <div>{diamond1.label}</div>} */}
+
+            <Row className={viewer3DStyles.container_diamond_detail}>
+              
+              {/* ------ Detail for diamond selected ------ */}
+              <Col xs="12">
+                {/* <div>List diamond</div> */}
+
+                <div>
+                  {/* <model-viewer
+                    id="model_3D_diamond"
+                    src={srcModel3D}
+                    alt="model 3D diamond"
+                    loading="lazy"
+                    auto-rotate
+                    reveal="auto"
+                    shadow-intensity="1"
+                    camera-controls
+                    touch-action="none"
+                  // environment-image={ENVIRONMENT_TEST}
+                  ></model-viewer> */}
+                </div>
+
+                <div className={viewer3DStyles.text_model_label}>{diamondLabel}</div>
+
+                <div className={`${viewer3DStyles.diamond_detail_text_normal} ${viewer3DStyles.text_description}`}>
+                  {GROUP_DETAIL_TEXT.description} <br /> {diamondDescription}
+                </div>
+                <div className={`${viewer3DStyles.diamond_detail_text_bold} ${viewer3DStyles.text_rating_point}`}>
+                  {GROUP_DETAIL_TEXT.maintenance} {diamondMaintenance}
+                </div>
+                <div className={`${viewer3DStyles.diamond_detail_text_bold} ${viewer3DStyles.text_rating_point}`}>
+                  {GROUP_DETAIL_TEXT.uniqueness} {diamondUniqueness}
+                </div>
+                <div className={`${viewer3DStyles.diamond_detail_text_bold} ${viewer3DStyles.text_rating_point}`}>
+                  {GROUP_DETAIL_TEXT.comfort} {diamondComfort}
+                </div>
+
+                <Form>
+                  <FormGroup check className="text-start">
+                    <Label check>
+                      <Input type="checkbox" className={viewer3DStyles.input_checkbox} />
+                      <div className={`${viewer3DStyles.diamond_detail_text_normal} ${viewer3DStyles.text_label_checkbox}`}>{GROUP_DETAIL_TEXT.newHelp}</div>
+                      <div className={`${viewer3DStyles.diamond_detail_text_normal} ${viewer3DStyles.text_label_checkbox}`}>{GROUP_DETAIL_TEXT.exploreTheDifferences}</div>
+                    </Label>
+                  </FormGroup>
+                </Form>
+
+                <div className="d-flex justify-content-end">
+                  <Button className={viewer3DStyles.add_to_card_btn}>{GROUP_DETAIL_TEXT.addToCart}</Button>
+                </div>
+              </Col>
+
+              {/* ------ Detail for diamond selected for compare ------ */}
+              {/* <Col ></Col> */}
+            </Row>
+          </Col>
         </Row>
       </Container>
     </>

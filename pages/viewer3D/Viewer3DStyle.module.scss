@@ -73,11 +73,13 @@
   }
 }
 
-/* ------ Container diamond category. ------ */
+/* ------ Container diamond category and description. ------ */
 
 .container_diamond_category_description {
   margin: 108px;
   text-align: center;
+
+  /* ------ Container diamond category . ------ */
 
   .title_category {
     margin-top: 53px;
@@ -100,6 +102,92 @@
     border: 1px solid #91f245;
   }
 
+  /* ------ Container diamond detail. ------ */
+
+  .container_diamond_detail {
+    width: 508px;
+    height: 601px;
+    flex-shrink: 0;
+    background-color: #d9d9d9;
+    padding-left: 24px;
+    padding-right: 27px;
+    /* display: flex;
+  justify-content: center; */
+
+    /* model-viewer {
+  width: 217px;
+  height: 163px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  margin-top: 93px;
+  margin-right: 171px;
+  margin-bottom: 20px;
+  margin-left: 136px;
+  border: 1px solid red;
+} */
+
+    .text_model_label {
+      color: #000;
+      font-family: Inter;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .text_description {
+      margin-bottom: 14px;
+    }
+
+    .text_rating_point {
+      margin-bottom: 17px;
+    }
+
+    .text_label_checkbox {
+      margin-top: 32;
+    }
+
+    .input_checkbox {
+      margin-top: 0px;
+    }
+
+    .diamond_detail_text_normal {
+      text-align: left;
+      color: #000;
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+    .diamond_detail_text_bold {
+      text-align: left;
+      color: #000;
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    .add_to_card_btn {
+      width: 113px;
+      height: 44px;
+      flex-shrink: 0;
+      border-radius: 4px;
+      background: #a77373;
+      color: #000;
+      font-family: Inter;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+
   /* ------ Container button select. ------ */
 
   .container_button_select {
@@ -118,90 +206,4 @@
       margin-left: 19px;
     }
   }
-}
-
-/* ------ Container diamond detail. ------ */
-
-.container-diamond-detail {
-  width: 508px;
-  height: 601px;
-  flex-shrink: 0;
-  background-color: #d9d9d9;
-  padding-left: 24px;
-  padding-right: 27px;
-  /* display: flex;
-  justify-content: center; */
-}
-
-/* model-viewer {
-  width: 217px;
-  height: 163px;
-  flex-shrink: 0;
-  border-radius: 8px;
-  margin-top: 93px;
-  margin-right: 171px;
-  margin-bottom: 20px;
-  margin-left: 136px;
-  border: 1px solid red;
-} */
-
-.text-model-label {
-  color: #000;
-  font-family: Inter;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.text-description {
-  margin-bottom: 14px;
-}
-
-.text-rating-point {
-  margin-bottom: 17px;
-}
-
-.text-label-checkbox {
-  margin-top: 32;
-}
-
-.input-checkbox {
-  margin-top: 0px;
-}
-
-.diamond-detail-text-normal {
-  text-align: left;
-  color: #000;
-  font-family: Inter;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-
-.diamond-detail-text-bold {
-  text-align: left;
-  color: #000;
-  font-family: Inter;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.add-to-card-btn {
-  width: 113px;
-  height: 44px;
-  flex-shrink: 0;
-  border-radius: 4px;
-  background: #a77373;
-  color: #000;
-  font-family: Inter;
-  font-size: 10px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
 }
